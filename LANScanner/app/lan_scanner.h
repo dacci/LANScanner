@@ -5,7 +5,12 @@
 
 #include <atlbase.h>
 
+#pragma warning(push)
+#pragma warning(disable: 4302 4838)
+
 #include <atlapp.h>
+
+#pragma warning(pop)
 
 extern CAppModule _Module;
 
